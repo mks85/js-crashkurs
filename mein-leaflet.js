@@ -9,4 +9,10 @@ $(document).ready(function(){
   var osmLayer = new L.TileLayer(osmUrl, {maxZoom:18, attribution:"OpenStreetmap"});
   osmLayer.addTo(map);
   
+  // Create a marker
+  var marker = new L.marker([50.739, 7.117]);
+  // Connect marker to map
+  marker.addTo(map);
+  // Add a popup to marker
+  marker.bindPopup("Bonn-Beuel").closePopup();
 });
