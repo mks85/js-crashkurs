@@ -5,3 +5,13 @@
   left:0;
   right:0;
 }
+
+#mini-wolrd-map {
+  position: absolute;
+  height:150px;
+  width: 200px;
+  bottom:25px;
+  right:25px;
+  border: 1px solid black;
+  background-color:red;
+}
